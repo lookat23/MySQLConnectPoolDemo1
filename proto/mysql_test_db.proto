@@ -1,0 +1,11 @@
+message Person {
+  required int32 id = 1;
+  required string name = 2;
+  optional string email = 3;
+  optional int32 phone = 4;
+  optional string unsure = 5;      
+}
+
+message Mysql_Test_DB {
+  repeated Person person = 1;
+}
